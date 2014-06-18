@@ -1,0 +1,50 @@
+{
+  "name": "innit.js",
+  "version": "0.0.0",
+  "description": "di + es6 + node + ng + ...",
+  "main": "bin/innit.js",
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/innit/innit.js"
+  },
+  "keywords": [
+    "angular",
+    "innit",
+    "node"
+  ],
+  "author": "InnitApps",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/innit/innit.js/issues"
+  },
+  "homepage": "https://github.com/innit/innit.js",
+  "devDependencies": {
+    "traceur": "0.0.41",
+    "gulp": "^3.6.2",
+    "gulp-traceur": "^0.6.0",
+    "karma": "^0.12.16",
+    "karma-jasmine": "~0.2.2",
+    "karma-chrome-launcher": "~0.1.2",
+    "karma-traceur-preprocessor": "~0.2.1",
+    "karma-requirejs": "~0.2.1",
+    "assert": "angular/assert#dist"
+  },
+  "registry": "jspm",
+  "directories": {
+    "lib": "lib",
+    "dist": "dist"
+  },
+  "configFile": "config.js",
+  "dependencies": {
+    "angular": "^1.2.16",
+    "es6-module-loader": "^0.6.0",
+    "koa": "^0.6.1",
+    "primus": "^2.2.1",
+    "rc": "^0.4.0",
+    "systemjs": "^0.6.6",
+    "ws": "^0.4.31"
+  }
+}
